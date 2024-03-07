@@ -7,3 +7,363 @@
   font-family: "Mulish", sans-serif;
   font-style: normal;
 }
+
+body {
+  max-width: 1170px;
+  margin: 6rem auto;
+}
+
+/* -----header related styles------- */
+.header-container {
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  height: 500px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  padding-top: 100px;
+}
+.header-description {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.input-container {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 4rem;
+}
+
+.text-field {
+  width: 154px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px;
+  color: #13131880;
+}
+
+.select-type-field {
+  width: 154px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px;
+  color: #13131880;
+}
+
+.btn-find {
+  width: 154px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border-style: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* ---------------popular tours related styles----------- */
+
+.popular-tours-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.popular-tour-img {
+  width: 100%;
+  height: 100%;
+}
+
+/*  -----------------------Navbar styles-----------------------*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar svg {
+  display: none;
+}
+.navbar-title {
+  color: #ff5400;
+  font-weight: 800;
+}
+.navbar-logo-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+.navbar-links li {
+  list-style: none;
+}
+
+/*--------------------- main section styles----------------- */
+.destination-title {
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+.destination-description {
+  text-align: center;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* ---------------destination styles--------------- */
+
+.first-row-grid,
+.second-row-grid,
+.third-row-grid {
+  width: 100%;
+  text-align: center;
+}
+
+/* --------------choose us section styles--------------- */
+.choose-icon {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.choose-title {
+  padding-left: 20px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.choose-description {
+  color: #5a5a5d;
+  padding-left: 20px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.why-choose-us {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  width: 573px;
+  height: 284px;
+  background-color: rgba(251, 181, 99, 0.05);
+}
+
+.choose-container {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+/* ----------------newsletter section------------ */
+
+.newsletter-title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+
+  font-weight: 800;
+}
+
+.newsletter-description {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.newsletter-container {
+  border: 1px solid orangered;
+  padding: 40px;
+  border-radius: 16px;
+  width: 474px;
+  height: 340px;
+}
+.newsletter-container input {
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 8px;
+  background-color: rgba(19, 19, 24, 0.05);
+  width: 80%;
+}
+.newsletter-image {
+  position: relative;
+  width: 100%;
+}
+
+.news-container {
+  text-align: center;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.discount-btn {
+  background-color: #ff5400;
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 11%;
+  border-radius: 15px;
+  transform: rotate(-25deg);
+}
+footer {
+  text-align: center;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-title {
+  color: black;
+  font-size: 32px;
+  font-weight: 800;
+}
+.footer-logo-title span {
+  color: #ff5400;
+}
+
+.footer-description {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.copyright {
+  margin-top: 35px;
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  /* navbar styles */
+  .navbar {
+    padding: 20px;
+  }
+  .navbar svg {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  /* header styles */
+  .input-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-container {
+    width: 335px;
+    height: 483px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  .text-field {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .select-type-field {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .btn-find {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .header-title {
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .popular-tours-container {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .tours-info {
+    margin-bottom: 50px;
+  }
+  .grid-item {
+    width: 100%;
+  }
+  .choose-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .why-choose-us {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* newsletter styles */
+  .news-container {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+  }
+  .newsletter-image img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .newsletter-container .btn-find,
+  .newsletter-container input {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .newsletter-container {
+    width: 80%;
+  }
+  .discount-btn {
+    right: 5px;
+    bottom: 18%;
+  }
+}
